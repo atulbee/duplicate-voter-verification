@@ -1,0 +1,4 @@
+{
+  "/(verify)/verify/page": "app/(verify)/verify/page.js",
+  "/api/voters/unverified-count/route": "app/api/voters/unverified-count/route.js"
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ACER/Documents/Kamalakar/Duplicate%20VoterVerification/duplicate-voter-verification/src/app/page.tsx"],"sourcesContent":["export default function HomePage() {\n  return (\n    <div className=\"space-y-6\">\n      <h1 className=\"text-2xl font-semibold\">Duplicate Voter Verification</h1>\n      <p className=\"text-zinc-500\">Use the navigation to access Dashboard, Verify, and Reports.</p>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAyB;;;;;;0BACvC,8OAAC;gBAAE,WAAU;0BAAgB;;;;;;;;;;;;AAGnC"}}]
+}

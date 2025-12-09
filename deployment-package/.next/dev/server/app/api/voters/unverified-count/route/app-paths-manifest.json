@@ -1,0 +1,3 @@
+{
+  "/api/voters/unverified-count/route": "app/api/voters/unverified-count/route.js"
+}

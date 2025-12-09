@@ -1,0 +1,24 @@
+[00:00:01.163] Server  LOG      ✓ Ready in 803ms
+[00:00:03.564] Server  LOG     [VerifyPage] Component mounted/rendered
+[00:00:03.720] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.023] Server  LOG     [API Server] GET https://smkc.gov.in:5443/api/voters/unverified-count
+[00:00:04.029] Browser LOG     [VerifyPage] Component mounted/rendered
+[00:00:04.029] Browser LOG     [VerifyPage] Component mounted/rendered
+[00:00:04.029] Browser LOG     [VerifyPage] useEffect: Fetching unverified count on mount
+[00:00:04.029] Browser LOG     [API Client] GET /api/voters/unverified-count 
+[00:00:04.029] Browser LOG     [API Client] Fetch options: {"hasBody":false,"headers":{"Content-Type":"application/json"},"method":"GET","path":"/api/voters/unverified-count"}
+[00:00:14.688] Server  ERROR   C:\Users\ACER\Documents\Kamalakar\Duplicate VoterVerification\duplicate-voter-verification\.next\dev\server\chunks\[root-of-the-server]__5cc0dde5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:14.702] Server  ERROR   C:\Users\ACER\Documents\Kamalakar\Duplicate VoterVerification\duplicate-voter-verification\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:14.716] Server  ERROR   C:\Users\ACER\Documents\Kamalakar\Duplicate VoterVerification\duplicate-voter-verification\.next\dev\server\chunks\node_modules_090056c7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:14.719] Server  ERROR   C:\Users\ACER\Documents\Kamalakar\Duplicate VoterVerification\duplicate-voter-verification\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:14.722] Server  ERROR   C:\Users\ACER\Documents\Kamalakar\Duplicate VoterVerification\duplicate-voter-verification\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:14.724] Server  ERROR   C:\Users\ACER\Documents\Kamalakar\Duplicate VoterVerification\duplicate-voter-verification\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:14.725] Server  ERROR   C:\Users\ACER\Documents\Kamalakar\Duplicate VoterVerification\duplicate-voter-verification\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:14.726] Server  ERROR   C:\Users\ACER\Documents\Kamalakar\Duplicate VoterVerification\duplicate-voter-verification\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:14.727] Server  ERROR   C:\Users\ACER\Documents\Kamalakar\Duplicate VoterVerification\duplicate-voter-verification\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:14.729] Server  ERROR   TypeError: fetch failed
+[00:00:15.012] Browser LOG     [API Client] Response status: 500 Internal Server Error
+[00:00:15.012] Browser LOG     [API Client] Full response object: {}
+[00:00:15.012] Browser LOG     [API Client] Response headers: {"connection":"keep-alive","date":"Tue, 09 Dec 2025 06:21:06 GMT","keep-alive":"timeout=5","referrer-policy":"strict-origin-when-cross-origin","transfer-encoding":"chunked","vary":"rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch","x-content-type-options":"nosniff","x-frame-options":"DENY"}
+[00:00:15.012] Browser ERROR   [API Client] Error response: 
+[00:00:15.012] Browser ERROR   [VerifyPage] Failed to fetch unverified count: {}

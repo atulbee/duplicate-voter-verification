@@ -1,0 +1,3 @@
+{
+  "/api/voters/verification-status/route": "app/api/voters/verification-status/route.js"
+}
