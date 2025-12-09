@@ -79,6 +79,7 @@ export default function ReportsPage() {
           <div>
             <h1 className="text-3xl font-bold text-gray-900">मतदार अहवाल</h1>
             <p className="text-gray-600 mt-1">Comprehensive Voter Report</p>
+            <p className="text-amber-600 mt-1 text-sm font-medium">कृपया सर्व फील्ड इंग्रजीमध्ये भरा (Please fill all fields in English)</p>
           </div>
         </div>
       </div>

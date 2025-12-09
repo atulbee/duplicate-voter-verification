@@ -21,7 +21,12 @@ export default async function DashboardPage() {
   const unverifiedRecords = status?.UnverifiedRecords ?? status?.unverifiedRecords ?? count?.count ?? count?.Count ?? 0;
   const duplicateRecords = status?.DuplicateRecords ?? status?.duplicateRecords ?? 0;
   const notDuplicateRecords = status?.NotDuplicateRecords ?? status?.notDuplicateRecords ?? 0;
-  const verificationPercentage = status?.VerificationPercentage ?? status?.verificationPercentage ?? 0;
+  
+  // Calculate verification percentage if not provided by API
+  let verificationPercentage = status?.VerificationPercentage ?? status?.verificationPercentage ?? 0;
+  if (verificationPercentage === 0 && totalRecords > 0) {
+    verificationPercentage = (verifiedRecords / totalRecords) * 100;
+  }
 
   return (
     <div className="space-y-5 sm:space-y-6 md:space-y-8 max-w-7xl mx-auto">

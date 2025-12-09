@@ -125,6 +125,7 @@ export default function VerifyPage() {
           <div>
             <h1 className="text-xl sm:text-3xl font-bold text-gray-900">डुप्लिकेट शोधा</h1>
             <p className="text-sm sm:text-base text-gray-600 mt-1">मतदार डेटा शोधा आणि प्रमाणित करा</p>
+            <p className="text-amber-600 mt-1 text-xs sm:text-sm font-medium">कृपया सर्व फील्ड इंग्रजीमध्ये भरा (Please fill all fields in English)</p>
           </div>
         </div>
       </div>
