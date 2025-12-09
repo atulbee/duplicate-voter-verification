@@ -124,7 +124,7 @@ export default function VerifyPage() {
           </div>
           <div>
             <h1 className="text-xl sm:text-3xl font-bold text-gray-900">डुप्लिकेट शोधा</h1>
-            <p className="text-sm sm:text-base text-gray-600 mt-1">मतदार डेटा शोधा आणि सत्यापित करा</p>
+            <p className="text-sm sm:text-base text-gray-600 mt-1">मतदार डेटा शोधा आणि प्रमाणित करा</p>
           </div>
         </div>
       </div>

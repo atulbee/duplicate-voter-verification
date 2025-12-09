@@ -34,8 +34,8 @@ export default async function DashboardPage() {
             </svg>
           </div>
           <div>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">सत्यापन डॅशबोर्ड</h1>
-            <p className="text-gray-600 mt-1 sm:mt-1.5 text-sm sm:text-base">मतदार सत्यापन आकडेवारीचे विहंगावलोकन</p>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">प्रमाणितता</h1>
+            <p className="text-gray-600 mt-1 sm:mt-1.5 text-sm sm:text-base">मतदार प्रमाणित आकडेवारीचे विहंगावलोकन</p>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ export default async function DashboardPage() {
               </svg>
             </div>
           </div>
-          <div className="text-sm text-gray-600 mb-2 font-semibold">एकूण रेकॉर्ड</div>
+          <div className="text-sm text-gray-600 mb-2 font-semibold">एकूण नोंदी</div>
           <div className="text-3xl sm:text-4xl font-bold text-gray-900">{totalRecords.toLocaleString()}</div>
         </div>
 
@@ -67,7 +67,7 @@ export default async function DashboardPage() {
               {verificationPercentage.toFixed(1)}%
             </span>
           </div>
-          <div className="text-sm text-gray-600 mb-2 font-semibold">सत्यापित रेकॉर्ड</div>
+          <div className="text-sm text-gray-600 mb-2 font-semibold">प्रमाणित नोंदी</div>
           <div className="text-3xl sm:text-4xl font-bold text-green-600">{verifiedRecords.toLocaleString()}</div>
         </div>
 
@@ -80,7 +80,7 @@ export default async function DashboardPage() {
               </svg>
             </div>
           </div>
-          <div className="text-sm text-gray-600 mb-2 font-semibold">असत्यापित रेकॉर्ड</div>
+          <div className="text-sm text-gray-600 mb-2 font-semibold">अप्रमाणित नोंदी</div>
           <div className="text-3xl sm:text-4xl font-bold text-amber-600">{unverifiedRecords.toLocaleString()}</div>
         </div>
 
@@ -93,7 +93,7 @@ export default async function DashboardPage() {
               </svg>
             </div>
           </div>
-          <div className="text-sm text-gray-600 mb-2 font-semibold">डुप्लिकेट रेकॉर्ड</div>
+          <div className="text-sm text-gray-600 mb-2 font-semibold">डुप्लिकेट नोंदी</div>
           <div className="text-3xl sm:text-4xl font-bold text-red-600">{duplicateRecords.toLocaleString()}</div>
         </div>
 
@@ -106,7 +106,7 @@ export default async function DashboardPage() {
               </svg>
             </div>
           </div>
-          <div className="text-sm text-gray-600 mb-2 font-semibold">डुप्लिकेट नाही रेकॉर्ड</div>
+          <div className="text-sm text-gray-600 mb-2 font-semibold">डुप्लिकेट नाही नोंदी</div>
           <div className="text-3xl sm:text-4xl font-bold text-cyan-600">{notDuplicateRecords.toLocaleString()}</div>
         </div>
 
@@ -119,7 +119,7 @@ export default async function DashboardPage() {
               </svg>
             </div>
           </div>
-          <div className="text-sm text-gray-600 mb-3 font-semibold">सत्यापन प्रगती</div>
+          <div className="text-sm text-gray-600 mb-3 font-semibold">प्रमाणित प्रगती</div>
           <div className="space-y-3">
             <div className="flex justify-between items-center text-sm">
               <span className="text-gray-600 font-medium">पूर्ण</span>

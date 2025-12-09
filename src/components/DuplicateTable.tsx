@@ -43,9 +43,23 @@ export default function DuplicateTable({
     }
     const cols = new Set<string>();
     const keys = Object.keys(records[0] || {});
+    
     for (const key of keys) {
-      const values = new Set(records.map((r) => String(r[key] ?? '')));
-      if (values.size === 1) cols.add(key);
+      // Get non-empty values in lowercase
+      const values = records
+        .map((r) => {
+          const val = String(r[key] ?? '').toLowerCase().trim();
+          return val === '' ? null : val;
+        })
+        .filter((v) => v !== null) as string[];
+      
+      if (values.length === 0) continue;
+      
+      // Check if all values are exactly the same
+      const uniqueValues = new Set(values);
+      if (uniqueValues.size === 1) {
+        cols.add(key);
+      }
     }
     console.log('[DuplicateTable] Duplicate columns identified:', Array.from(cols));
     return cols;
@@ -187,11 +201,11 @@ export default function DuplicateTable({
                     <td className="px-4 py-4 sticky left-0 bg-white backdrop-blur-sm z-10 border-r border-gray-200">
                       {isVerified ? (
                         <span className="inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-bold bg-green-100 text-green-700 border border-green-300 shadow-sm">
-                          ✓ सत्यापित
+                          ✓ प्रमाणित
                         </span>
                       ) : (
                         <span className="inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-bold bg-orange-100 text-orange-700 border border-orange-300 shadow-sm">
-                          ⚠ असत्यापित
+                          ⚠ अप्रमाणित
                         </span>
                       )}
                     </td>

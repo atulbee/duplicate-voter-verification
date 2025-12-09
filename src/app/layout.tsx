@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </div>
                 <div className="hidden xs:block">
                   <h1 className="text-sm sm:text-xl font-bold text-gray-900">
-                    मतदार सत्यापन
+                    मतदार प्रमाणित
                   </h1>
                   <p className="text-xs text-gray-600 hidden sm:block">स्मार्ट डुप्लिकेट शोध</p>
                 </div>
